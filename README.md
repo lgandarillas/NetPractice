@@ -43,3 +43,10 @@ Click to expand each exercise (scrollable images with resolved configurations):
 ![Level 9](/img/level9.png)
 
 </details>
+
+<details>
+<summary>✅ Level 10 - Solved</summary>
+
+![Level 10](/img/level10.png)
+
+</details>
