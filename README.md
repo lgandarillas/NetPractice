@@ -20,7 +20,7 @@ When practicing on NetPractice (or similar web tools with many input fields), yo
 Just open the developer console (`F12` → "Console" tab) and run:
 
 ```javascript
-document.querySelectorAll('input[type="text"]').forEach(input => input.value = '');
+document.querySelectorAll('input[type="text"]:not(:disabled)').forEach(input => { input.value = ''; });
 ```
 This will instantly empty all text input fields on the page!
 
